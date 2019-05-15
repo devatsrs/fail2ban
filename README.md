@@ -4,6 +4,7 @@ Fail2ban installation and configuration.
 
 ## Installation
 
+
 ```
 sudo yum install fail2ban
 sudo systemctl enable  fail2ban
