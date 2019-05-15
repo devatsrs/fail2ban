@@ -22,7 +22,9 @@ sudo vi /etc/fail2ban/jail.local
 ## Change Configuration File
 
 ```
-ignoreip = 127.0.0.1/8 117.247.87.0/32 78.129.239.0/32 137.59.230.0/32
+ignoreip = 127.0.0.1/8 {ALLOWED_IP_ADDRESSES}
+
+#LIKE : 192.168.87.0/32
 
 
 
